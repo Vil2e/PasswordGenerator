@@ -46,7 +46,7 @@ namespace PasswordGenerator
 
         void GetPassWord(int currentLength)
         {   
-            string password = ""; // 這個變數要放裡面 才可以每次都歸零
+            string password = ""; // 這個變數要放裡面 才會每次都歸零
 
             // 依照password的設定字數就跑幾次loop
             for (int i = 0; i < currentLength; i++)
